@@ -23,7 +23,7 @@ def actual_time():
     alarm(set_alarm_timer)
 
 clock = Tk()
-clock.title("DataFlair Alarm Clock")
+clock.title("Alarm Clock by Masroor")
 clock.iconbitmap(r"dataflair-logo.ico")
 clock.geometry("400x200")
 time_format=Label(clock, text= "Enter time in 24 hour format!", fg="red",bg="black",font="Arial").place(x=60,y=120)
